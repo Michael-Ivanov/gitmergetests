@@ -1,3 +1,4 @@
 init data
 
 new text new text new text new text new text new text
+несколько повторов new text
