@@ -16,4 +16,8 @@ public class RootChild extends AbstractParent {
     public RootChild(Long id) {
         super(id);
     }
+
+    public int getIdPlusRootNumber() {
+        return (int) (getId() + rootNumber);
+    }
 }

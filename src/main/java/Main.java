@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
         isEquals();
         checkConstructor();
+        print();
     }
 
 
@@ -23,5 +24,14 @@ public class Main {
 
         AnotherChild anotherChild = new AnotherChild(44L, 5);
         System.out.println(anotherChild);
+
+        AnotherChild anotherChild1 = new AnotherChild(55L, 4);
+        System.out.println(anotherChild1);
+    }
+
+    private static void print() {
+        System.out.println("just print");
+        System.out.println("--------------");
+        System.out.println("another print");
     }
 }
